@@ -1,0 +1,48 @@
+<<,Operator>
+<>,Operator>
+<<,Operator>
+<>,Operator>
+< ,Seperator>
+<*,Operator>
+<*/,Operator>
+<,Constant>
+< ,Seperator>
+<was,Identifier>
+< ,Seperator>
+<created,Identifier>
+< ,Seperator>
+<as,Identifier>
+< ,Seperator>
+<part,Identifier>
+< ,Seperator>
+<of,Identifier>
+< ,Seperator>
+<void,keyword>
+< ,Seperator>
+<main,Identifier>
+<(,Seperator>
+<),Seperator>
+<{,Seperator>
+< ,Seperator>
+<a,Identifier>
+<,,Seperator>
+<b,Identifier>
+<;,Seperator>
+<=,Operator>
+<5,Constant>
+<;,Seperator>
+<=,Operator>
+<8,Constant>
+<;,Seperator>
+<=,Operator>
+<a,Identifier>
+<+,Operator>
+<b,Identifier>
+<;,Seperator>
+<(,Seperator>
+<,,Seperator>
+<c,Identifier>
+<),Seperator>
+<;,Seperator>
+<},Seperator>
+<},Seperator>

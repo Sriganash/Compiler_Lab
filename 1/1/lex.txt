@@ -1,0 +1,1151 @@
+
+1. <#,operator>
+<include,identifier>
+<<,symbol>
+<ctype.h,invalid identifier>
+<>,symbol>
+
+2. <#,operator>
+<include,identifier>
+<<,symbol>
+<stdio.h,invalid identifier>
+<>,symbol>
+
+3. <#,operator>
+<include,identifier>
+<<,symbol>
+<stdlib.h,invalid identifier>
+<>,symbol>
+
+4. <#,operator>
+<include,identifier>
+<<,symbol>
+<string.h,invalid identifier>
+<>,symbol>
+
+5. 
+6. <#,operator>
+<include,identifier>
+<",symbol>
+<functions.h,literal>
+<",symbol>
+
+7. 
+8. <#,operator>
+<define,identifier>
+<file,identifier>
+<",symbol>
+<input.c,literal>
+<",symbol>
+
+9. 
+10. <#,operator>
+<define,identifier>
+<debug,identifier>
+<(,symbol>
+<x,identifier>
+<),symbol>
+<puts,identifier>
+<(,symbol>
+<x,identifier>
+<),symbol>
+
+11. <static,keyword>
+<int,keyword>
+<comment_flag,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+
+12. Single line comment
+13. 
+14. multiline comment
+15. multiline comment
+16. 
+17. <FILE,identifier>
+<*,operator>
+<fp,identifier>
+<;,symbol>
+
+18. 
+19. <int,keyword>
+<8a,invalid identifier>
+<;,symbol>
+
+20. 
+21. <int,keyword>
+<handle_line,identifier>
+<(,symbol>
+<char,keyword>
+<*,operator>
+<line,identifier>
+<),symbol>
+<{,symbol>
+
+22. <char,keyword>
+<line_copy,identifier>
+<[,symbol>
+<1024,integer>
+<],symbol>
+<;,symbol>
+
+23. <strncpy,identifier>
+<(,symbol>
+<line_copy,identifier>
+<,,symbol>
+<line,identifier>
+<,,symbol>
+<1024,integer>
+<),symbol>
+<;,symbol>
+
+24. <int,keyword>
+<lit_flag,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+
+25. <int,keyword>
+<lit_type,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+Single line comment
+26. <char,keyword>
+<lexeme,identifier>
+<[,symbol>
+<1024,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<,literal>
+<",symbol>
+<;,symbol>
+
+27. <for,keyword>
+<(,symbol>
+<int,keyword>
+<i,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+<i,identifier>
+<<,symbol>
+<strlen,identifier>
+<(,symbol>
+<line,identifier>
+<),symbol>
+<;,symbol>
+<i,identifier>
+<+,operator>
+<+,operator>
+<),symbol>
+<{,symbol>
+
+28. <char,keyword>
+<curr_char,identifier>
+<=,operator>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<;,symbol>
+
+29. 
+30. Single line comment
+31. <if,keyword>
+<(,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<<,symbol>
+<strlen,identifier>
+<(,symbol>
+<line,identifier>
+<),symbol>
+<&,operator>
+<&,operator>
+<(,symbol>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+</,literal>
+<",symbol>
+<&,operator>
+<&,operator>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+<*,literal>
+<",symbol>
+<),symbol>
+<),symbol>
+<{,symbol>
+
+32. <comment_flag,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+
+33. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<multiline comment,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+34. <},symbol>
+
+35. <if,keyword>
+<(,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<<,symbol>
+<strlen,identifier>
+<(,symbol>
+<line,identifier>
+<),symbol>
+<&,operator>
+<&,operator>
+<(,symbol>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+<*,literal>
+<",symbol>
+<&,operator>
+<&,operator>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+</,literal>
+<",symbol>
+<),symbol>
+<),symbol>
+<{,symbol>
+
+36. <comment_flag,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+
+37. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<multiline comment,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+38. <lexeme,identifier>
+<[,symbol>
+<0,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+39. <break,keyword>
+<;,symbol>
+
+40. <},symbol>
+
+41. Single line comment
+42. <if,keyword>
+<(,symbol>
+<comment_flag,identifier>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+43. <continue,keyword>
+<;,symbol>
+
+44. <},symbol>
+
+45. 
+46. Single line comment
+47. <if,keyword>
+<(,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<<,symbol>
+<strlen,identifier>
+<(,symbol>
+<line,identifier>
+<),symbol>
+<&,operator>
+<&,operator>
+<(,symbol>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+</,literal>
+<",symbol>
+<&,operator>
+<&,operator>
+<line,identifier>
+<[,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+</,literal>
+<",symbol>
+<),symbol>
+<),symbol>
+<{,symbol>
+
+48. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<Single line comment,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+49. <break,keyword>
+<;,symbol>
+
+50. <},symbol>
+
+51. 
+52. Single line comment
+53. <if,keyword>
+<(,symbol>
+<strlen,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<<,symbol>
+<1,integer>
+<&,operator>
+<&,operator>
+<lit_flag,identifier>
+<=,operator>
+<=,operator>
+<0,integer>
+<),symbol>
+<{,symbol>
+
+54. <if,keyword>
+<(,symbol>
+<curr_char,identifier>
+<=,operator>
+<=,operator>
+<",symbol>
+<",literal>
+<",symbol>
+<),symbol>
+<{,symbol>
+
+55. <lit_type,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+
+56. <lit_flag,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+
+57. 
+58. <},symbol>
+<else,keyword>
+<if,keyword>
+<(,symbol>
+<curr_char,identifier>
+<=,operator>
+<=,operator>
+<",symbol>
+<\,literal>
+<",symbol>
+
+59. <lit_type,identifier>
+<=,operator>
+<2,integer>
+<;,symbol>
+
+60. <lit_flag,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+
+61. <},symbol>
+
+62. <},symbol>
+<else,keyword>
+<if,keyword>
+<(,symbol>
+<lit_flag,identifier>
+<=,operator>
+<=,operator>
+<1,integer>
+<&,operator>
+<&,operator>
+<(,symbol>
+<(,symbol>
+<lit_type,identifier>
+<=,operator>
+<=,operator>
+<1,integer>
+<&,operator>
+<&,operator>
+<curr_char,identifier>
+<=,operator>
+<=,operator>
+<",symbol>
+<",literal>
+<",symbol>
+<),symbol>
+<|,operator>
+<|,operator>
+<(,symbol>
+<lit_type,identifier>
+<=,operator>
+<=,operator>
+<2,integer>
+<&,operator>
+<&,operator>
+<curr_char,identifier>
+<=,operator>
+<=,operator>
+<",symbol>
+<\,literal>
+<",symbol>
+
+63. <lit_flag,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+
+64. <int,keyword>
+<len,identifier>
+<=,operator>
+<strlen,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<;,symbol>
+
+65. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<],symbol>
+<=,operator>
+<curr_char,identifier>
+<;,symbol>
+
+66. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+67. 
+68. Single line comment
+69. <if,keyword>
+<(,symbol>
+<lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+<",literal>
+<",symbol>
+<),symbol>
+<{,symbol>
+
+70. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<",symbol>
+<\,literal>
+<",symbol>
+<",symbol>
+<, ,literal>
+<",symbol>
+<symbol",invalid identifier>
+<),symbol>
+<;,symbol>
+
+71. <for,keyword>
+<(,symbol>
+<int,keyword>
+<i,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+<i,identifier>
+<<,symbol>
+<len,identifier>
+<+,operator>
+<1,integer>
+<;,symbol>
+<i,identifier>
+<+,operator>
+<+,operator>
+<),symbol>
+<{,symbol>
+
+72. <lexeme,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<=,operator>
+<lexeme,identifier>
+<[,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<;,symbol>
+
+73. <},symbol>
+
+74. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<-,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+75. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<literal,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+76. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<",symbol>
+<\,literal>
+<",symbol>
+<",symbol>
+<, ,literal>
+<",symbol>
+<symbol",invalid identifier>
+<),symbol>
+<;,symbol>
+
+77. <},symbol>
+
+78. 
+79. Single line comment
+80. <else,keyword>
+<if,keyword>
+<(,symbol>
+<lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<],symbol>
+<=,operator>
+<=,operator>
+<",symbol>
+<\,literal>
+<",symbol>
+
+81. <{,symbol>
+
+82. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<",symbol>
+<\,literal>
+<",symbol>
+<",symbol>
+<, ,literal>
+<",symbol>
+<symbol",invalid identifier>
+<),symbol>
+<;,symbol>
+
+83. <for,keyword>
+<(,symbol>
+<int,keyword>
+<i,identifier>
+<=,operator>
+<0,integer>
+<;,symbol>
+<i,identifier>
+<<,symbol>
+<len,identifier>
+<+,operator>
+<1,integer>
+<;,symbol>
+<i,identifier>
+<+,operator>
+<+,operator>
+<),symbol>
+<{,symbol>
+
+84. <lexeme,identifier>
+<[,symbol>
+<i,identifier>
+<],symbol>
+<=,operator>
+<lexeme,identifier>
+<[,symbol>
+<i,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<;,symbol>
+
+85. <},symbol>
+
+86. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<-,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+87. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<literal,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+88. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<",symbol>
+<\,literal>
+<",symbol>
+<",symbol>
+<, ,literal>
+<",symbol>
+<symbol",invalid identifier>
+<),symbol>
+<;,symbol>
+
+89. <},symbol>
+
+90. <lexeme,identifier>
+<[,symbol>
+<0,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+91. <continue,keyword>
+<;,symbol>
+
+92. <},symbol>
+
+93. 
+94. 
+95. Single line comment
+96. <if,keyword>
+<(,symbol>
+<lit_flag,identifier>
+<=,operator>
+<=,operator>
+<0,integer>
+<&,operator>
+<&,operator>
+<(,symbol>
+<isSpaces,identifier>
+<(,symbol>
+<curr_char,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<|,operator>
+<|,operator>
+<isDelim,identifier>
+<(,symbol>
+<curr_char,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<|,operator>
+<|,operator>
+
+97. <isOperator,identifier>
+<(,symbol>
+<curr_char,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<),symbol>
+<{,symbol>
+
+98. <if,keyword>
+<(,symbol>
+<isKeyword,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+99. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<keyword,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+100. <},symbol>
+<else,keyword>
+<if,keyword>
+<(,symbol>
+<isIdentifier,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+101. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<identifier,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+102. <},symbol>
+<else,keyword>
+<if,keyword>
+<(,symbol>
+<isInteger,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+103. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<integer,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+104. <},symbol>
+<else,keyword>
+<if,keyword>
+<(,symbol>
+<strlen,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<>,symbol>
+<0,integer>
+<),symbol>
+<{,symbol>
+
+105. <if,keyword>
+<(,symbol>
+<isOperator2,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+106. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<operator,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+107. <},symbol>
+<else,keyword>
+<{,symbol>
+
+108. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%s,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<lexeme,identifier>
+<,,symbol>
+<",symbol>
+<invalid identifier,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+109. <},symbol>
+
+110. <},symbol>
+
+111. <if,keyword>
+<(,symbol>
+<isSpaces,identifier>
+<(,symbol>
+<curr_char,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<0,integer>
+<),symbol>
+<{,symbol>
+
+112. <if,keyword>
+<(,symbol>
+<isOperator,identifier>
+<(,symbol>
+<curr_char,identifier>
+<),symbol>
+<=,operator>
+<=,operator>
+<1,integer>
+<),symbol>
+<{,symbol>
+
+113. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%c,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<curr_char,identifier>
+<,,symbol>
+<",symbol>
+<operator,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+114. <},symbol>
+<else,keyword>
+<{,symbol>
+
+115. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<<%c,%s>\n,literal>
+<",symbol>
+<,,symbol>
+<curr_char,identifier>
+<,,symbol>
+<",symbol>
+<symbol,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+116. <},symbol>
+
+117. <},symbol>
+
+118. <lexeme,identifier>
+<[,symbol>
+<0,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+119. <},symbol>
+<else,keyword>
+<{,symbol>
+
+120. Single line comment
+121. <int,keyword>
+<len,identifier>
+<=,operator>
+<strlen,identifier>
+<(,symbol>
+<lexeme,identifier>
+<),symbol>
+<;,symbol>
+
+122. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<],symbol>
+<=,operator>
+<curr_char,identifier>
+<;,symbol>
+
+123. <lexeme,identifier>
+<[,symbol>
+<len,identifier>
+<+,operator>
+<1,integer>
+<],symbol>
+<=,operator>
+<",symbol>
+<\0,literal>
+<",symbol>
+<;,symbol>
+
+124. <},symbol>
+
+125. <},symbol>
+
+126. <},symbol>
+
+127. 
+128. <int,keyword>
+<main,identifier>
+<(,symbol>
+<),symbol>
+<{,symbol>
+
+129. <FILE,identifier>
+<*,operator>
+<f1,identifier>
+<;,symbol>
+
+130. <f1,identifier>
+<=,operator>
+<fopen,identifier>
+<(,symbol>
+<file,identifier>
+<,,symbol>
+<",symbol>
+<r,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+131. <fseek,identifier>
+<(,symbol>
+<f1,identifier>
+<,,symbol>
+<0,integer>
+<,,symbol>
+<SEEK_SET,identifier>
+<),symbol>
+<;,symbol>
+
+132. <fp,identifier>
+<=,operator>
+<fopen,identifier>
+<(,symbol>
+<",symbol>
+<lex.txt,literal>
+<",symbol>
+<,,symbol>
+<",symbol>
+<w,literal>
+<",symbol>
+<),symbol>
+<;,symbol>
+
+133. 
+134. <int,keyword>
+<c,identifier>
+<=,operator>
+<1,integer>
+<;,symbol>
+
+135. <char,keyword>
+<line,identifier>
+<[,symbol>
+<1024,integer>
+<],symbol>
+<;,symbol>
+
+136. <while,keyword>
+<(,symbol>
+<fgets,identifier>
+<(,symbol>
+<line,identifier>
+<,,symbol>
+<1024,integer>
+<,,symbol>
+<f1,identifier>
+<),symbol>
+<),symbol>
+<{,symbol>
+
+137. <fprintf,identifier>
+<(,symbol>
+<fp,identifier>
+<,,symbol>
+<",symbol>
+<\n%d. ,literal>
+<",symbol>
+<,,symbol>
+<c,identifier>
+<+,operator>
+<+,operator>
+<),symbol>
+<;,symbol>
+
+138. <handle_line,identifier>
+<(,symbol>
+<line,identifier>
+<),symbol>
+<;,symbol>
+
+139. <},symbol>
+<;,symbol>
+
+140. Single line comment
+141. <return,keyword>
+<0,integer>
+<;,symbol>
+
+142. <},symbol>
